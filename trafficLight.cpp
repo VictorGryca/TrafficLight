@@ -18,6 +18,7 @@ void trafficLight::begin() {
     digitalWrite(pinR, LOW);
     digitalWrite(pinY, LOW);
     digitalWrite(pinG, LOW);
+
 }
 
 void trafficLight::setIntervals(int tR, int tG, int tY){
@@ -33,6 +34,8 @@ void trafficLight::update(){
   // caso o tempo passado desde a ultima ativacao seja maior do que o tempo da LED da sequencia, ele entra no if()
   if(currentMillis - previousMillis > intervals[state]){
     previousMillis = currentMillis;
+
+    
 
     // apaga todas as LED (reinicia)
     digitalWrite(pinR, LOW);
@@ -58,3 +61,4 @@ void trafficLight::update(){
     }
   }
 }
+

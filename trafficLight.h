@@ -18,4 +18,5 @@ public:
   void setIntervals(int tR, int tY, int tG);
   // declaramos a funcao de atualizacao da logica do farol
   void update();
+
 };
