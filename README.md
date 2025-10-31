@@ -6,6 +6,10 @@ Este projeto implementa um sistema de semáforo para ESP32 em que cada farol é 
 
 O código pretende controlar um semáforo de forma não-bloqueante, alternando automaticamente entre os estados. Também pretende ser modular, englobando toda a lógica em uma classe.
 
+
+## Videos da montagem
+![Montagem](./assets/montagem.mp4)
+
 ## Como funciona?
 
 1. **Inicialização**: 
