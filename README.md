@@ -52,6 +52,5 @@ Cálculo usado para mostrar a viabilidade do uso dos resistores:
 U/R = i -> 1.3V/330Ω -> **4mA** (corrente abaixo dos 20mA de limite)
 
 
-## Vídeo de documentação
+ [Vídeo para documentação](https://youtu.be/fruQscyJI1c)
 
-![video](/assets/video_demonstracao.mp4)
